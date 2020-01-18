@@ -1,5 +1,5 @@
 <?php
-require_once("assets/php/autoload.php");
+require_once("assets/WebPage.class.php");
 $page = new WebPage("Acceuil", true);
 $page -> appendJsUrl(["assets/js/lancement.js","assets/js/common.js","assets/js/map.js"]);//,]);
 $page -> appendCssUrl("assets/css/style.css");
